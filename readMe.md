@@ -1,6 +1,10 @@
 # Houdini Version Selector (`hversion.ps1`)
 
 A simple PowerShell script to browse and select from installed Houdini versions on Windows, and set one as the default application for `.hip`, `.hipnc`, and `.hiplc` project files.
+Setup is persistant across machine restarts, and new software installs.
+
+Just select your default version via Terminal (with proper admin permission), and your Houdini files will open with that selected Houdini version.
+
 
 ---
 
@@ -39,7 +43,10 @@ A simple PowerShell script to browse and select from installed Houdini versions 
 Use Up and Down arrows to navigate through installed Houdini versions.
 Press Enter to select the version you want to associate with .hip, .hipnc, and .hiplc files.
 
+And now you can just left-click on the .hip files you want to open and Houdini will launch with the selected version.
+
 Press Escape to exit without making changes.
+
 
 ## 📁 Example Output in Terminal
 

@@ -36,12 +36,14 @@ A simple PowerShell script to browse and select from installed Houdini versions 
    Use the arrow keys to navigate the list of installed Houdini versions.
    ```
 
+Use Up and Down arrows to navigate through installed Houdini versions.
 Press Enter to select the version you want to associate with .hip, .hipnc, and .hiplc files.
 
 Press Escape to exit without making changes.
 
-## 📁 Example Output
+## 📁 Example Output in Terminal
 
+When running the script:
 ```
 Select Houdini version to set as default:
 
@@ -50,7 +52,7 @@ Select Houdini version to set as default:
 > Houdini 19.0.720
 ```
 
-After selection:
+After version selection:
 
 ```
 File associations updated for .hip, .hipnc, .hiplc to use:
@@ -67,4 +69,4 @@ This script does not modify environment variables or PATH entries—only file as
 
 ## 📦 Version
 
-v0.0.1 – Initial release with file association functionality and version selection UI.
+v0.0.1 – Initial release with file association functionality and version selection with arrows via UI.

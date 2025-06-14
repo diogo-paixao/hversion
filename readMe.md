@@ -48,8 +48,11 @@ Select Houdini version to set as default:
 > Houdini 20.0.547
 > Houdini 19.5.716
 > Houdini 19.0.720
-> After selection:
+```
 
+After selection:
+
+```
 File associations updated for .hip, .hipnc, .hiplc to use:
 C:\Program Files\Side Effects Software\Houdini 20.0.547\bin\houdini.exe
 Houdini 20.0.547 selected as default version.
